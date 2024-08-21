@@ -10,7 +10,7 @@ contract WhitelistRole{
     event WhitelistAdded(address indexed account);
     event WhitelistRemoved(address indexed account);
 
-    address public _owner = 0xB29E9F7461E19985B0BCA2af3d57802aD24D3fFC;
+    address public _owner;
                             
 
     Roles.Role private _whitelists;
